@@ -12,6 +12,11 @@ p {
   text-align: justify;
 }
 
+#container main article h2,
+#container main article h3 {
+  margin-top: 60px;
+}
+
 strong {
   color: #ffffff;
 }
