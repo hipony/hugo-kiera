@@ -8,17 +8,27 @@ body {
   background: #2a2829;
 }
 
+a {
+  color: #efefef;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 p {
   text-align: justify;
+}
+
+p a {
+  color: #e85154;
+}
+
+strong {
+  color: #ffffff;
 }
 
 #container main article h2,
 #container main article h3 {
   margin-top: 60px;
-}
-
-strong {
-  color: #ffffff;
 }
 
 #container {
@@ -271,12 +281,6 @@ input {
 #container main article aside ul li {
   margin: 0;
   padding: 0;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: underline;
-  font-weight: bold;
 }
 
 .image,

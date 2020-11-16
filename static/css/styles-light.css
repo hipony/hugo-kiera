@@ -7,8 +7,18 @@ body {
   color: #333333;
 }
 
+a {
+  color: #333333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 p {
   text-align: justify;
+}
+
+p a {
+  color: #666666;
 }
 
 #container main article h2,
@@ -266,12 +276,6 @@ input {
 #container main article aside ul li {
   margin: 0;
   padding: 0;
-}
-
-a {
-  color: #666666;
-  text-decoration: underline;
-  font-weight: bold;
 }
 
 .image,
